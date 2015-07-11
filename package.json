@@ -1,0 +1,17 @@
+{
+  "name": "surfcards",
+  "version": "1.0.0",
+  "description": "Surf Report Card Builder",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "surfcards",
+    "surf",
+    "weather",
+    "card"
+  ],
+  "author": "Daveloper87 <me@daio.io> (http://www.daio.io)",
+  "license": "ISC"
+}
