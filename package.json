@@ -6,6 +6,10 @@
   "scripts": {
     "test": "mocha"
   },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Daveloper87/surfcards.git"
+  },
   "keywords": [
     "surfcards",
     "surf",
