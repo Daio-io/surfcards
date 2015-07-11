@@ -1,3 +1,3 @@
 # surfcards
 
-### Surf Report Card Builder 
+### Surf Report Card Builder for ES6 Apps
