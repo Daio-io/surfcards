@@ -13,9 +13,9 @@ const surfCard = hbs.compile(template);
  * @returns {string} - Built html SurfCard as string
  */
 var build = function(options) {
-  
+
   options.style = css;
-  return surfCard(options)
+  return surfCard(options);
 
 };
 

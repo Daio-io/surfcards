@@ -13,7 +13,15 @@ describe('Cards', function() {
     expect(rendered.indexOf('<div')).to.be.at.least(0);
 
   });
-  
+
+  it('should include css', function() {
+
+    let rendered = surfCards.build({});
+    expect(rendered).to.be.a('string');
+    expect(rendered.indexOf('<style>')).to.be.at.least(0);
+
+  });
+
   it('should add time', function() {
 
     let rendered = surfCards.build({time: ['2pm']});
