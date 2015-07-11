@@ -1,0 +1,20 @@
+{{style}}
+<div class="surfcard-container">
+    <table class="forecast">
+        <tr>
+            {{#each time}}
+                <td class="time">{{this}}</td>
+            {{/each}}
+        </tr>
+        <tr>
+            {{#each windspeed}}
+                <td class="wind">{{this}}mph</td>
+            {{/each}}
+        </tr>
+        <tr>
+            {{#each swell}}
+                <td class="swell">{{this}}ft</td>
+            {{/each}}
+        </tr>
+    </table>
+</div>
