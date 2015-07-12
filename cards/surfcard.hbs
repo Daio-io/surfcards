@@ -5,6 +5,9 @@
     <h1 class="surf-header">
         {{location}} Forecast
     </h1>
+    {{#if webcamLink}}
+        <iframe src="{{webcamLink}}" width="400" height="250" frameborder="0"></iframe>
+    {{/if}}
     <table class="forecast">
         <tr>
             <th>
