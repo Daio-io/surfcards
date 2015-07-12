@@ -1,34 +1,29 @@
 .surfcard-container {
-    height:200px;
-    width: 200px;
+    height:100%;
+    width: 100%;
+}
+
+h1.surf-header {
+    color: #000;
 }
 
 table.forecast {
     width: 120px;
     border-spacing: 0;
-    background: #fff;
     color: #000;
+}
+
+table.forecast th {
+    font-weight: bold;
 }
 
 table.forecast th,
 table.forecast td {
+    font-size: 15px;
     text-align: left;
     padding: 10px 5px 10px 10px;
 }
 
-table.forecast .swell {
+table.forecast .time .swell .wind{
     width: 120px;
-    border-right: 0.5px solid #000;
-    border-bottom: 0.5px solid #000;
-}
-
-table.forecast .wind {
-    width: 120px;
-    border-right: 0.5px solid #000;
-    border-bottom: 0.5px solid #000;
-    border-top: 0.5px solid #000;
-}
-
-table.forecast tr td:first-child {
-    border-left: 0.5px solid #000;
 }

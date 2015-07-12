@@ -20,6 +20,15 @@ describe('Cards', function() {
     expect(rendered).to.be.a('string');
     expect(rendered.indexOf('<style>')).to.be.at.least(0);
 
+  });  
+  
+  it('should add a location heading', function() {
+
+    let loc = 'Rest Bay';
+    let rendered = surfCards.build({location: loc});
+    expect(rendered).to.be.a('string');
+    expect(rendered.indexOf(loc + ' Forecast')).to.be.at.least(0);
+
   });
 
   it('should add time', function() {
