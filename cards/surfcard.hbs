@@ -6,7 +6,9 @@
         {{location}} Forecast
     </h1>
     {{#if webcamLink}}
-        <iframe src="{{webcamLink}}" width="400" height="250" frameborder="0"></iframe>
+        <div class="surfcard-webcam-container">
+            <iframe src="{{webcamLink}}" width="400" height="250" frameborder="0"></iframe>
+        </div>
     {{/if}}
     <table class="forecast">
         <tr>
