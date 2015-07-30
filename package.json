@@ -4,7 +4,8 @@
   "description": "Surf Report Card Builder",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "example": "node example.build.js; open out.html"
   },
   "repository": {
     "type": "git",

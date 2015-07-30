@@ -9,3 +9,6 @@ logs
 
 # Modules
 node_modules
+
+# Examples
+out.html
