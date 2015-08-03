@@ -2,14 +2,14 @@
         {{style}}
 </style>
 <div class="surfcard-container">
-    <h1 class="surf-header">
-        {{location}} Forecast
-    </h1>
     {{#if webcamLink}}
         <div class="surfcard-webcam-container">
             <iframe src="{{webcamLink}}" width="400" height="250" frameborder="0"></iframe>
         </div>
     {{/if}}
+    <h1 class="surf-header">
+        {{location}} Forecast
+    </h1>
     <table class="forecast">
         <tr>
             <th>
