@@ -10,7 +10,13 @@ h1.surf-header {
     font-size: 25px
 }
 
+h2.surf-sub-header {
+    color: #2c2c2c;
+    font-size: 12px;
+}
+
 table.forecast {
+    padding-top: 2px !important;
     width: 120px;
     border-spacing: 0;
     color: #000;
@@ -27,7 +33,7 @@ table.forecast td {
     padding: 10px 5px 10px 10px;
 }
 
-table.forecast .time .swell .wind{
+table.forecast .time .swell .wind {
     width: 120px;
 }
 
@@ -37,6 +43,7 @@ table.forecast .time .swell .wind{
     padding-top: 25px;
     height: 0;
 }
+
 .surfcard-webcam-container iframe {
     position: absolute;
     top: 0;
